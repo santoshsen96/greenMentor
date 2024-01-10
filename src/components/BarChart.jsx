@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 import { PieChart } from "./PieChart";
 import { Table } from "./Table";
-
+import '../css/Barchart.css'
 export const VerticalBarChart = () => {
   const chartRef = useRef();
 

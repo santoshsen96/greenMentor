@@ -117,6 +117,17 @@
     display: block;
   } */
 /* Add your existing styles if any */
+.data{
+  color: #5C5C5C;
+  margin-left:13%;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; 
+text-transform: uppercase;
+}
 
 .energy-dropdownn {
   position: absolute;

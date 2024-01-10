@@ -27,6 +27,8 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
+          <p className="data">DATA-IN</p>
+
             <CDBSidebarMenuItem>
               <div style={{ display: "flex", gap: "5%", marginLeft: "2%" }}>
                 <div className="energy-icon-container">
@@ -84,7 +86,10 @@ const Sidebar = () => {
                 <div>Water and Effluents</div>
               </div>
             </CDBSidebarMenuItem>
+
             <hr style={{ width: "100%" }} />
+            <p className="data">analyse</p>
+
             <CDBSidebarMenuItem>
               <div style={{ display: "flex", gap: "5%", marginLeft: "2%" }}>
                 <div className="energy-icon-container">
