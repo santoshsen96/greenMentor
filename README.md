@@ -31,8 +31,7 @@ GreenMentor Dashboard Assignment
 - Santosh Kumar Sen
 
 ## Notes
-Any additional notes or considerations for users or developers.
-
+Deployed link-https://green-mentor.vercel.app/
 
 
 
