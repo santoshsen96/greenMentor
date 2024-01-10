@@ -11,7 +11,7 @@ GreenMentor Dashboard Assignment
 ## Instructions
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/santoshsen96/greenMentor.git
     cd your-repository
     ```
 
