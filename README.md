@@ -1,25 +1,38 @@
-# Assignment Name
-GreenMentor Dashboard
+# Assignment Title
+GreenMentor Dashboard Assignment
 ## Description
-Brief description of the assignment.
+
+## Table of Contents
+- [Instructions](#instructions)
+- [Code Structure](#code-structure)
+- [Author](#author)
+- [Notes](#notes)
 
 ## Instructions
-1. Clone the repository.
-2. Install dependencies if any.
-3. Run the program using the provided instructions.
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    cd your-repository
+    ```
 
-## Code Structure
-Brief explanation of the organization of the code files.
+2. **Install Dependencies (if any):**
+    ```bash
+    npm install
+    ```
 
-## Dependencies
-- List of dependencies or requirements.
+3. **Run the Program:**
+    Provide instructions on how to run your program or use the application.
+    ```bash
+    npm start
+    ```
+
 
 ## Author
-- Your Name
-
-## Contributors
-- List of contributors if applicable.
+- Santosh Kumar Sen
 
 ## Notes
-Any additional notes or considerations.
+Any additional notes or considerations for users or developers.
+
+
+
 
