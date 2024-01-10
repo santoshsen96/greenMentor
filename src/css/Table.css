@@ -1,0 +1,81 @@
+.table-container {
+  max-height: 280px;
+  overflow-y: auto;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  color: gray;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Add custom styles for column4 */
+td:nth-child(4) {
+  color: green;
+  position: relative;
+}
+
+/* Style for positive values */
+td:nth-child(4).positive {
+  color: green;
+}
+
+/* Style for negative values */
+td:nth-child(4).negative {
+  color: red;
+}
+
+/* Pseudo-element for the upward and downward sign */
+td:nth-child(4)::after {
+  content: '';
+  position: absolute;
+  left: 65%;
+  transform: translateX(-50%);
+}
+
+/* Style for the upward sign */
+td:nth-child(4).upward::after {
+  content: ' ↓';
+  color: green;
+}
+
+/* Style for the downward sign */
+td:nth-child(4).downward::after {
+  content: ' ↑';
+  color: red;
+}
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a047;
+}
